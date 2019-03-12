@@ -16,7 +16,7 @@ body p {
 }
 /* Header **/
 header{
-  background:#35424a;
+  background:#132238;
   color:#ffffff;
   padding-top:5px;
   min-height:40px;
@@ -40,5 +40,86 @@ header #nav{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
+  padding-top:25px;
 }
+
+
+
+#introH1{
+	text-align:center;
+}
+
+
+.table{
+	width:90%;
+	text-align: right;
+}
+
+
+.grand{
+	
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-top:25px;
+  
+	
+}
+
+
+.firstdiv{
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	padding:0;
+	margin:0;
+	color:white;
+	background-color:#132238;
+	
+}
+
+.analysis{
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	padding:0;
+	margin:0;
+	color:white;
+	background-color:#9e9800;
+}
+
+.intro{
+	  	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	padding:0;
+	margin:0;
+	color:#c3ed1e;
+	background-color:black;
+
+}
+
+.end{
+		font: 15px/1.5 Arial, Helvetica,sans-serif;
+	padding:0;
+	margin:0;
+	color:white;
+	background-color:#132238;
+}
+/*
+
+.tennisPic{
+	  padding-top:5px;
+
+}
+
+
+
+#introH1{
+	color:#0bb4e2;
+	  text-align: center;
+
+}
+
+#introP{
+		color:#0bb4e2;
+
+
+}
+*/

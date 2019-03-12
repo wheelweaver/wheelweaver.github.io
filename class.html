@@ -11,80 +11,140 @@
 	<header>
 		<div class="container">
 			<div id="branding">
-				<h1><span class="highlight">Tennis</span>:Who is better?</h1>
+				<h1><span class="highlight">Tennis</span>: 2018 Analysis</h1>
 			</div>
 			<nav>
-				<h4>By:Atul Singh</h4>		
+				<h4 class="highlight";>By: Atul Singh</h4>		
 			</nav>
 		</div>
+		
+		
 	</header>
-				<img src="tennis1.jpg" alt="NONE" class="center" style="width:400px;height:300px;">
 	
 	
-		<style>p.indent{ padding-left: 5.8em }</style>
-		<span style="display:inline-block; width: YOURWIDTH;"></span>
+	<div class="tennisPic">
+		<img src="tennis1.jpg" alt="NONE" class="center">		
+	</div>
+	
+	
+	<div class="intro">
+		<h1 id="introH1">Introduction</h1>
+		
+		
+		<p id="introP"> 
+			Football. Basketball. Cricket. These may be some of the most popular sport in the world but there is one that appeals to a broader spectrum of people. That would be Tennis. Tennis has a global reach of more than 1 billion followers and is considered to be the most popular individual based sport. In the year 2018, the sport has only increased in terms of attraction. In this blog we will be focusing on Men's Tennis. The governing body of men's tennis is known as Association of Tennis Professionals, formed in September 1972. ATP is the foremost men’s professional tennis league in the world. As players progress and win in the ATP World Tour, they earn valuable ATP points. These accumulation of points in turn set the world ranking of the players.Previous analysis performed around the topic of tennis revolved around unique factors that influences the best players. These examinations have included looking at players stamina, serves, or even the surface of court played.
+			<a href = "https://medium.com/the-tennis-notebook/the-brick-breaker-that-won-the-french-open-b528695f2ccb/">Link</a>
 
-		<h1>Introduction</h1>
-		
-		<script src="one.js.js" async="" data-plotly="RPlotBot:1143"></script>
-		<script src="online.js" async="" data-plotly="RPlotBot:1143"></script>
-		
-		<div>
-    <a href="https://plot.ly/~avksingh739/1/?share_key=1kLGp5c8YFwKxEQcXD9LPo" target="_blank" title="r-docs-midwest-boxplots" style="display: block; text-align: center;"><img src="https://plot.ly/~avksingh739/1.png?share_key=1kLGp5c8YFwKxEQcXD9LPo" alt="r-docs-midwest-boxplots" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="avksingh739:1" sharekey-plotly="1kLGp5c8YFwKxEQcXD9LPo" src="https://plot.ly/embed.js" async></script>
-</div>
 
-
-		
-		
-		
-		<p> Football.Basketball.Cricket. These may be some of the most popular sport in the world but there is one that appeals to a more broad spectrum of people.
-			That would be Tennis.Tennis has a global reach of more than 1 billions followers and is considered to be the most popular indiviudal based sport. In the year 2018, the sport has only increased in terms of attraction. In this blog we will be focusing on Men's Tennis. The governing body of men's tennis is known as Association of Tennis Proffesionals, formed in September 1972. We will be exploring the 2018 ATP World Tour. 
+			</p>
+			<p>
+			Other blogs and analysis attempted over the topic of tennis have been regarding the examination of winning percentage vs scores ( point-by-point) and their forecast.
+			
+			<a href = "https://databuckets.org/databucket/real-time-point-by-point-tennis-forecast/">Link</a>
+			</p>
+			<p>
+			We will be exploring the 2018 ATP World Tour. In particular, factors that influence the ranking and make the best players. As players win more games and accrue ATP points, their ranking is determined, along with the seeding in future tournaments. This enables players that are higher ranked to face easy competition in early rounds and enable them to future progress through tournaments. This blog will look at how age affected the ranking of world players. Did older players loose performance ability due to increasing age or was the experience that comes with age enough of a factor to offset decrease in performance? In addition, we will also look at if the numbers of tournaments played had any correlation between the players ranking. 
 		</p>
 		
-		<h2>
-			Methodology
+		<h2 id="introH1"> Data </h2>
+		
+		<p>
+			Two sources were utilized in the creation of this analysis:
+			
+				<ul>
+			•	The first dataset was complied by <a href= "https://github.com/JeffSackmann/tennis_atp/"> JeffStackman on Github </a>
+			
+			</ul>
+			<ul>
+			•	 This dataset compiled the 67 tournaments in the ATP tour and charted winners and losers of each round as players progressed through tournaments. 
+				</ul>
+				<ul>
+			•	The data of the second data was joined by me to list : Rank, Player, Country, Age, Tournaments played, Points, and Movement  
+				</ul>
+				<ul>
+			•	This data was complied with the help of sub data from <a href="http://www.espn.com/tennis/rankings/_/year/2017/"> Espn </a> and 
+			
+				<a href=" https://www.atptour.com/en/rankings/singles?rankDate=2018-12-31&rankRange=0-100" >ATP.com</a>
+				</ul>
+		</p>
+	</div>
+	
+
+		<div class="firstdiv">
+			<h2 id="introH1">
+			Summary
+			</h2>
+			
+			<p>
+				This interactive customizable table gives us a summary of the top 50 ranked players of the ATP. This gives us various statistic about the players such as the total points accumulated in 2018 year along with the age and tournaments played by the players that will be used in our analysis. 
+			</p>
+			
+			
+			<p>
+				<object class="table" type="text/html" data="playersTable.html" class="center" width="5" height="530" left="0">Test</object>		
+			</p>
+			
+			<p>
+				The Grand Slams are considered the majors of tennis and are the most important annual tennis events. These tournaments offer the most points, prize money, and recognition, giving the closest estimate of who the best players are. The table below show us, our 3 best ranked plyers: Djokovic, Nadal, & Federer, who were the only winners of the Grand Slam. This tells us that the players usually ranked the highest are more likely to win these exclusive tournaments. Djokovic, Nadal, & Federer are all above the age of 30 with Federer being the oldest at 37 and each participated in 17,13, and 17 tournaments respectively. These ages are significant as athletes in their 30s are less likely to continue playing their respective sports and are closer to their retirement age.   
+
+			</p>
+			
+			<p>
+				<object type="text/html" data="grand.html" class="grand" width="5" height="530" left="0">Test</object>	
+			
+			</p>
+			
+		</div>
+		
+			<div class="analysis">	
+		<h2 id="introH1">
+			Age vs. Points
 		</h2>
 				<style>p.indent{ padding-left: 5.8em }</style>
 
 		
 		<p>
-			To determine who the top 5 players of the year we will assign players points based on certain criterias.
-			1. Tournament Won 30 points
-			2. Round Progression 
-				1.1 Round 1 		5 points
-				1.2 Round 2			10 points
-				1.3 Round 3			15 points
-				1.4 Quarter-final	20 points
-			3. ?(Add more)
+			This part of the analysis addresses the relationship between the age and the points gathered by the players. To draw better conclusion, our figure we will be examining the top 20 players. As can be seen, players that are older tend to accumulate more ATP points through tournament wins. On the other spectrum we see that players that are younger are inclined to have more ATP points. A reasonable conclusion that we can draw from this statistic would be that players that are younger have better physicality to compete in tournaments and win points. We can also see that older players are able to a gather more ATP points and this is probably in no small parts due to their experience and their skill. 
 		<p>
 		
 		<p>
-			2018 was a spectacular year for Tennis. The goal of this blog will be to examine the records of players and look through their performance to detrmine 5 outstanding players from the last season. This will be determined in a multiude of ways. We will look at the number of matches won by the players, how far along they came in different tournaments(1st round, 2nd round, 4rd round). Another methdology that will be employed is to scrutanize the scores of each player. 
+			<object class="table" type="text/html" data="ageVpoints.html" class="center" width="5" height="530" left="0">Test</object>
 		</p>
-		
-
+				
 		<p>
-			<object type="text/html" data="pic.html" class="center" width="600" height="530" left="0">Test</object>		
 		</p>
-		<span style="display:inline-block; width: YOURWIDTH;"></span>
-<span style="display:inline-block; width: YOURWIDTH;"></span>
-
-		<p>
-			The first part of the digrams gives us a broad overview of the players. The x-axis shows the 70 matches that were played in the ATP confrence this year. The y-axis shows us the rank of the winners as they exceded through the year.If we are to hover over each individual figure we can see the player name, Tournament, and the rank of the winner.  
-		</p>
+			The different glyphs in the figure represent the players team and by hovering over the glyphs we can see brief summary about the players such as Age, Points, Country, and name. 		
 		
 		
+		<h2 id="introH1">Tournaments Played vs. Rank</h2>
+		
 		<p>
-			For the next part we will examine the number of rounds that each player was able to progress in the ATP confrence. Based on how far the individula player was able to progress, they will be awared points. 
+			Another factor tested that could affect a player’s rank was the number of tournaments played. On examination of the figure though we can see that there is not a strong correlation between the number of tournaments player and the rank. A lot of the higher ranked players may have participated in less tournaments but were nevertheless the top players. This is high likely the case as the more experienced players tend to win the higher tournaments such as the grand slam and are therefore able to gain more points. 
 		</p>
-
-  <div>
-    <a href="https://plot.ly/~avksingh739/1/?share_key=1kLGp5c8YFwKxEQcXD9LPo" target="_blank" title="r-docs-midwest-boxplots" style="display: block; text-align: center;"><img src="https://plot.ly/~avksingh739/1.png?share_key=1kLGp5c8YFwKxEQcXD9LPo" alt="r-docs-midwest-boxplots" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="avksingh739:1" sharekey-plotly="1kLGp5c8YFwKxEQcXD9LPo" src="https://plot.ly/embed.js" async></script>
+		</div>
+		
+		<div class="end">
+		<h2 id="introH1">Regression [Age and Rank]</h2>
+		
+		<p>
+		
+		
+		
+		<p>
+			The final analysis of the 2018 tennis data involved the LOWESS regression. As the curve in the figure below shows us, the rank of younger players is higher. As age increases in the middle we slight disparity in our observation, but as we progress future with age, we can see that the rank of players increases. 
+		
+		</p>
+			<div>
+    <a href="https://plot.ly/~avksingh739/3/?share_key=yClqhOdwbr4Qtnaj5QHB4r" target="_blank" title="agevsRank" style="display: block; text-align: center;"><img src="https://plot.ly/~avksingh739/3.png?share_key=yClqhOdwbr4Qtnaj5QHB4r" alt="agevsRank" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="avksingh739:3" sharekey-plotly="yClqhOdwbr4Qtnaj5QHB4r" src="https://plot.ly/embed.js" async></script>
 </div>
+		
 
 
+
+
+
+</div>
   
   
   
