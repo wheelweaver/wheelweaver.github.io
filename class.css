@@ -3,7 +3,7 @@ body{
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
   margin:0;
-  background-color:#f4f4f4;
+  background-color:#c3ed1e;
 }
 
 body {
@@ -38,8 +38,8 @@ header #nav{
 
 .center {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  
+  margin-right: 80px;
   width: 100%;
   padding-top:25px;
 }
@@ -74,7 +74,7 @@ header #nav{
 	padding:0;
 	margin:0;
 	color:white;
-	background-color:#9e9800;
+	background-color:black;
 }
 
 .intro{
@@ -100,14 +100,7 @@ header #nav{
 
 .grand{
 	
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height:100%;
-  padding-top:25px;
-  padding-bottom:25px;
-  
+
 	
 }
 
@@ -129,6 +122,16 @@ header #nav{
 	padding: 45px;
 
 }
+
+
+#introH1{
+	color:#0bb4e2;
+	 text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+
+
+}
 /*
 
 .tennisPic{
@@ -140,7 +143,9 @@ header #nav{
 
 #introH1{
 	color:#0bb4e2;
-	  text-align: center;
+	 text-align: center;
+	 text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+
 
 }
 
