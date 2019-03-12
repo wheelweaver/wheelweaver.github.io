@@ -57,16 +57,7 @@ header #nav{
 }
 
 
-.grand{
-	
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  padding-top:25px;
-  
-	
-}
+
 
 
 .firstdiv{
@@ -101,6 +92,38 @@ header #nav{
 	margin:0;
 	color:white;
 	background-color:#132238;
+}
+
+.grand{
+	
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height:100%;
+  padding-top:25px;
+  padding-bottom:25px;
+  
+	
+}
+
+
+.grandslam{
+  width: 200px;
+  height: 400px;
+  object-fit: none;
+  object-position: 5px 10%;
+  border: 5px solid red;
+}
+
+#introP{
+			font: 20px/1.5 Arial, Helvetica,sans-serif;
+
+	width: 1000px;
+	margin: 0 auto;
+	min-height: 300px;
+	padding: 45px;
+
 }
 /*
 
